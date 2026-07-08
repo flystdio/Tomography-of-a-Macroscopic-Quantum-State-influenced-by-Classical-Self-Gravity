@@ -1,0 +1,56 @@
+{
+  "description": "Data underlying the SN reconstructed determinant parameter-space plot.",
+  "noise_settings": {
+    "max_points": 128000,
+    "min_points": 8000,
+    "rel_tol": 0.001,
+    "require_converged": false,
+    "use_convergence": true
+  },
+  "normalization": {
+    "HBAR_SQUARED_OVER_4_IN_H_UNITS": 1.0,
+    "det_ratio_definition": "4 det(V_recon) / hbar^2"
+  },
+  "parameters": {
+    "Omega_q_over_2pi_max_Hz": 10.0,
+    "Omega_q_over_2pi_min_Hz": 0.01,
+    "Omega_q_points": 320,
+    "T_max_K": 0.01,
+    "T_min_K": 1e-05,
+    "T_points": 800,
+    "V_init_h1_h2_h3": [
+      0.2,
+      1.0,
+      10.0
+    ],
+    "model": "SN",
+    "plot_mode": "positive_log"
+  },
+  "source_cache": "Tomography_result/cache/sn_recon_det_parameter_space/cache_sn_recon_det_parameter_space_v1_SN_Vinit0.2-1-10_noiseConv1_mp8000-128000_rtol0.001_req0_Omega0.01-10_T1e-05-0.01_grid320x800.pkl",
+  "source_figure": "Tomography_result/sn_recon_det_parameter_space/cache_sn_recon_det_parameter_space_v1_SN_Vinit0.2-1-10_noiseConv1_mp8000-128000_rtol0.001_req0_Omega0.01-10_T1e-05-0.01_grid320x800_positive_log.pdf",
+  "source_script": "Tomography_state_fidelity/sn_recon_det_parameter_space/plot_sn_recon_det_parameter_space.py",
+  "summary": {
+    "det_ratio": {
+      "count": 256000,
+      "max": 3654.0555724734636,
+      "mean": 46.7849682951735,
+      "min": -10.957778184505393
+    },
+    "finite_points": 256000,
+    "nan_points": 0,
+    "nonpositive_points": 62129,
+    "positive_log10_det_ratio": {
+      "count": 193871,
+      "max": 3.5627751480069523,
+      "mean": 0.7425343853596722,
+      "min": -5.247271199647071
+    },
+    "positive_points": 193871,
+    "signed_log10_1_plus_abs_det_ratio": {
+      "count": 256000,
+      "max": 3.5628939844772156,
+      "mean": 0.5825166656544507,
+      "min": -1.0776504930430886
+    }
+  }
+}

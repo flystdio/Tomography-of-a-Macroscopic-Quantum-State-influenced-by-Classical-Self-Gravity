@@ -1,0 +1,59 @@
+{
+  "description": "Data underlying the matched-temperature manual-time tomography contour plot.",
+  "noise_settings": {
+    "max_points": 128000,
+    "min_points": 8000,
+    "rel_tol": 0.001,
+    "require_converged": false,
+    "use_convergence": true
+  },
+  "parameters": {
+    "Omega_q_over_2pi_max_Hz": 10.0,
+    "Omega_q_over_2pi_min_Hz": 0.01,
+    "Omega_q_points": 320,
+    "T_max_K": 0.01,
+    "T_min_K": 1e-05,
+    "T_points": 800,
+    "V_init_h1_h2_h3": [
+      0.2,
+      1.0,
+      10.0
+    ],
+    "contour_levels": [
+      0.01,
+      0.15,
+      0.3,
+      0.5
+    ],
+    "sn_det_zero_tol": 0.0001,
+    "t_eval_s": 0.0
+  },
+  "source_boundary_csv": "Tomography_result/H2_contour_matchedT_manualTime_t0_detVsn_root_tol1e-04.csv",
+  "source_cache": "Tomography_result/cache/tomography_cache_matchedT_manualTime_geom_v6_t0_Vinit0.2-1-10_noiseConv1_mp8000-128000_rtol0.001_req0_Omega0.01-10_T1e-05-0.01_grid320x800.pkl",
+  "source_figure": "Tomography_result/H2_contour_matchedT_manualTime_t0.pdf",
+  "source_script": "Tomography_state_fidelity/optimize_tomography_matched_temperature_manual_time.py",
+  "summary": {
+    "D_geo_1_minus_B_cl": {
+      "count": 193871,
+      "max": 0.9331384626080835,
+      "mean": 0.06699482901136664,
+      "min": 1.4047586078258512e-05
+    },
+    "fidelity_overlap_B_cl": {
+      "count": 193871,
+      "max": 0.9999859524139217,
+      "mean": 0.9330051709886333,
+      "min": 0.06686153739191644
+    },
+    "finite_grid_points": 193871,
+    "sn_det_grid": {
+      "count": 256000,
+      "max": 3654.0555724734636,
+      "mean": 46.7849682951735,
+      "min": -10.957778184505393
+    },
+    "sn_det_nonpositive_points": 62129,
+    "sn_det_positive_points": 193871,
+    "sn_det_zero_boundary_points": 1318
+  }
+}

@@ -27,16 +27,8 @@
     "init_T_K": 0.0,
     "t_eval_s": 0.0
   },
-  "riccati_solver": {
-    "T0p001_atol": 1e-09,
-    "T0p001_rtol": 1e-06,
-    "method": "LSODA",
-    "note": "T_tomo=1e-4 K was recomputed with tighter Riccati tolerances; T_tomo=1e-3 K is retained from the previous upload.",
-    "updated_T0p0001_atol": 1e-12,
-    "updated_T0p0001_rtol": 1e-09
-  },
   "source_caches": [
-    "Tomography_result/cache/noise_det_vs_omega_cache_det_omega_curve_v1_Oq0p01-10_N1280_T0p0001_t0_Ti0_Vinit0p2-1-10_ell0p05-0p1-1_mp8000-128000_rtol0p001_allow1_ric1em09-1em12.pkl",
+    "Tomography_result/cache/noise_det_vs_omega_cache_det_omega_curve_v1_Oq0p01-10_N1280_T0p0001_t0_Ti0_Vinit0p2-1-10_ell0p05-0p1-1_mp8000-128000_rtol0p001_allow1.pkl",
     "Tomography_result/cache/noise_det_vs_omega_cache_det_omega_curve_v1_Oq0p01-10_N1280_T0p001_t0_Ti0_Vinit0p2-1-10_ell0p05-0p1-1_mp8000-128000_rtol0p001_allow1.pkl"
   ],
   "source_figures": {

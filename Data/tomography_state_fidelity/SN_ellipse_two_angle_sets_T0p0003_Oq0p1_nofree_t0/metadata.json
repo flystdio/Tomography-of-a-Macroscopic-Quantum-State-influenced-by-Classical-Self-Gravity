@@ -1,0 +1,84 @@
+{
+  "derived_parameters": {
+    "omega_SN_over_2pi_Hz": 0.078,
+    "omega_q_over_2pi_Hz": 0.07810249675906654,
+    "p_scale_sqrt_omega_q_over_Omega_q": 0.8837561697610181,
+    "x_scale_sqrt_Omega_q_over_omega_q": 1.1315338259764751
+  },
+  "description": "Data underlying SN_ellipse_two_angle_sets plot for the current default parameters.",
+  "parameters": {
+    "Omega_q_over_2pi_Hz": 0.1,
+    "Omega_q_rad_s": 0.6283185307179586,
+    "T_tomo_K": 0.0003,
+    "V_init_h1_h2_h3": [
+      0.2,
+      1.0,
+      10.0
+    ],
+    "angle_set_A_label": "0, \\pi/4, \\pi/2",
+    "angle_set_A_rad": [
+      0.0,
+      0.7853981633974483,
+      1.5707963267948966
+    ],
+    "angle_set_B_label": "\\pi/3, 2\\pi/3, \\pi",
+    "angle_set_B_rad": [
+      1.0471975511965976,
+      2.0943951023931953,
+      3.141592653589793
+    ],
+    "free_evolution": false,
+    "t_eval_s": 0.0
+  },
+  "source_script": "Tomography_state_fidelity/plot_SN_ellipse_two_angle_sets.py",
+  "summary": {
+    "QG_A": {
+      "delta_total": {
+        "delta_h1": 1.1040812922183407,
+        "delta_h2": -0.9983866311231511,
+        "delta_h3": 1.8095229608098948
+      },
+      "det_V_recon_total": 15.400575360256004,
+      "distance_geom_init_vs_recon_total": 0.2974128206642497,
+      "overlap_init_vs_recon_total": 0.7025871793357503
+    },
+    "QG_B": {
+      "delta_total": {
+        "delta_h1": 1.1040812922183412,
+        "delta_h2": -0.9983866311231616,
+        "delta_h3": 1.8095229608099026
+      },
+      "det_V_recon_total": 15.400575360256012,
+      "distance_geom_init_vs_recon_total": 0.29741282066425,
+      "overlap_init_vs_recon_total": 0.70258717933575
+    },
+    "SN_A": {
+      "delta_total": {
+        "delta_h1": 0.8762605672313122,
+        "delta_h2": 0.8478343961805072,
+        "delta_h3": -5.45581462548902
+      },
+      "det_V_recon_total": 1.4762355730676398,
+      "distance_geom_init_vs_recon_total": 0.3181026325786769,
+      "overlap_init_vs_recon_total": 0.6818973674213231
+    },
+    "SN_B": {
+      "delta_total": {
+        "delta_h1": 0.8762605672315853,
+        "delta_h2": -0.14771935324986565,
+        "delta_h3": -4.500882538888421
+      },
+      "det_V_recon_total": 5.192100977144236,
+      "distance_geom_init_vs_recon_total": 0.2533667725744897,
+      "overlap_init_vs_recon_total": 0.7466332274255103
+    },
+    "SN_QG_cross_A": {
+      "distance_geom_recon_total": 0.2670971566101581,
+      "overlap_recon_total": 0.7329028433898419
+    },
+    "SN_QG_cross_B": {
+      "distance_geom_recon_total": 0.059895376174120996,
+      "overlap_recon_total": 0.940104623825879
+    }
+  }
+}

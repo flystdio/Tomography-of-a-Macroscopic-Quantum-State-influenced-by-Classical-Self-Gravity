@@ -27,8 +27,16 @@
     "init_T_K": 0.0,
     "t_eval_s": 0.0
   },
+  "riccati_solver": {
+    "T0p001_atol": 1e-09,
+    "T0p001_rtol": 1e-06,
+    "method": "LSODA",
+    "note": "T_tomo=1e-4 K was recomputed with tighter Riccati tolerances; T_tomo=1e-3 K is retained from the previous upload.",
+    "updated_T0p0001_atol": 1e-12,
+    "updated_T0p0001_rtol": 1e-09
+  },
   "source_caches": [
-    "Tomography_result/cache/noise_det_vs_omega_cache_det_omega_curve_v1_Oq0p01-10_N1280_T0p0001_t0_Ti0_Vinit0p2-1-10_ell0p05-0p1-1_mp8000-128000_rtol0p001_allow1.pkl",
+    "Tomography_result/cache/noise_det_vs_omega_cache_det_omega_curve_v1_Oq0p01-10_N1280_T0p0001_t0_Ti0_Vinit0p2-1-10_ell0p05-0p1-1_mp8000-128000_rtol0p001_allow1_ric1em09-1em12.pkl",
     "Tomography_result/cache/noise_det_vs_omega_cache_det_omega_curve_v1_Oq0p01-10_N1280_T0p001_t0_Ti0_Vinit0p2-1-10_ell0p05-0p1-1_mp8000-128000_rtol0p001_allow1.pkl"
   ],
   "source_figures": {
@@ -41,56 +49,56 @@
       "area_change": {
         "qg": {
           "count": 1280,
-          "max": 13.744783751309898,
-          "mean": 2.407942173882996,
-          "min": 0.017396589993209366
+          "max": 16.548350767513643,
+          "mean": 2.797120442293168,
+          "min": 0.017774320691180456
         },
         "sn_qm": {
           "count": 1280,
-          "max": 13.744783751309898,
-          "mean": 2.407942173882996,
-          "min": 0.017396589993209366
+          "max": 16.548350767513643,
+          "mean": 2.797120442293168,
+          "min": 0.017774320691180456
         },
         "sn_total": {
-          "count": 715,
-          "max": 8.826999435192914,
-          "mean": 1.034820593640664,
-          "min": -0.9551265845875635
+          "count": 814,
+          "max": 6.446939222744125,
+          "mean": 0.9715258289917009,
+          "min": -0.9637895621286185
         }
       },
       "common_initial": true,
       "delta_det": {
         "qg": {
           "count": 1280,
-          "max": 54.63382227120519,
-          "mean": 3.1138472043359084,
-          "min": 3.336938744847934e-05
+          "max": 33.36751334687601,
+          "mean": 2.4264371521361032,
+          "min": 3.336961944222749e-05
         },
         "sn_qm": {
           "count": 1280,
-          "max": 54.63382227120519,
-          "mean": 3.1138472043359084,
-          "min": 3.336938744847934e-05
+          "max": 33.36751334687601,
+          "mean": 2.4264371521361032,
+          "min": 3.336961944222749e-05
         },
         "sn_total": {
           "count": 1280,
-          "max": -0.005616331534051231,
-          "mean": -18.816579600670664,
-          "min": -113.1687330350883
+          "max": -0.006203159650946957,
+          "mean": -27.23163219360266,
+          "min": -267.02661049391776
         }
       },
       "distinguishability": {
-        "count": 715,
-        "max": 0.7850099831110736,
-        "mean": 0.11428292012620338,
-        "min": 0.011509690461006361
+        "count": 814,
+        "max": 0.7628281344814578,
+        "mean": 0.13338690917325452,
+        "min": 0.01241274727124586
       },
       "distinguishability_init": 0.0,
       "sn_det_shift": {
         "count": 1280,
-        "max": -0.34388218905005064,
-        "mean": -18.890880923127813,
-        "min": -120.83872997361057
+        "max": -0.35471480240382225,
+        "mean": -26.892094828314395,
+        "min": -252.48771087245177
       }
     },
     "T_0.001_K": {

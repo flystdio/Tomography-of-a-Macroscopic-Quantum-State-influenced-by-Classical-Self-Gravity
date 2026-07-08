@@ -1,0 +1,194 @@
+{
+  "description": "Data underlying the covariance error component comparison plot.",
+  "noise_settings": {
+    "allow_unconverged_noise": true,
+    "max_points": 128000,
+    "min_points": 8000,
+    "rel_tol": 0.001
+  },
+  "parameters": {
+    "Omega_q_over_2pi_max_Hz": 10.0,
+    "Omega_q_over_2pi_min_Hz": 0.01,
+    "Omega_q_points": 512,
+    "T_tomo_list_K": [
+      0.0001,
+      0.001
+    ],
+    "V_init_h1_h2_h3": [
+      0.2,
+      1.0,
+      10.0
+    ],
+    "init_T_K": 0.0,
+    "single_panel": false,
+    "t_eval_s": 0.0
+  },
+  "source_caches": [
+    "Tomography_result/cache/cov_error_components_cache_cov_error_components_v1_Oq0p01-10_N512_T0p0001_t0_Ti0_Vinit0p2-1-10_mp8000-128000_rtol0p001_allow1.pkl",
+    "Tomography_result/cache/cov_error_components_cache_cov_error_components_v1_Oq0p01-10_N512_T0p001_t0_Ti0_Vinit0p2-1-10_mp8000-128000_rtol0p001_allow1.pkl"
+  ],
+  "source_figure": "Tomography_result/cov_error_components_vs_omega_Tcompare_0p0001-0p001_t0.pdf",
+  "source_script": "Tomography_state_fidelity/plot_cov_error_components.py",
+  "summary": {
+    "T_0.0001_K": {
+      "delta_h1": {
+        "qg_total": {
+          "count": 512,
+          "max": 26.18498767000691,
+          "mean": 2.5617793006865215,
+          "min": 0.0008395798342604241
+        },
+        "sn_minus_qg": {
+          "count": 512,
+          "max": 5.03319840456237,
+          "mean": 0.5034498808591162,
+          "min": -0.1876575258290356
+        },
+        "sn_term_SN": {
+          "count": 512,
+          "max": 5.033198404562369,
+          "mean": 0.5034498808591161,
+          "min": -0.18765752582903575
+        },
+        "sn_total": {
+          "count": 512,
+          "max": 31.21818607456928,
+          "mean": 3.065229181545637,
+          "min": -0.004355669695559088
+        }
+      },
+      "delta_h2": {
+        "qg_total": {
+          "count": 512,
+          "max": -0.005773248230045963,
+          "mean": -0.8273785925792668,
+          "min": -5.615744701043467
+        },
+        "sn_minus_qg": {
+          "count": 512,
+          "max": 2.550440476623613,
+          "mean": 0.5658727749062417,
+          "min": -1.1544556613369394
+        },
+        "sn_term_SN": {
+          "count": 512,
+          "max": 2.5504404766236135,
+          "mean": 0.5658727749062417,
+          "min": -1.1544556613369394
+        },
+        "sn_total": {
+          "count": 512,
+          "max": 1.8571200218721278,
+          "mean": -0.26150581767302494,
+          "min": -5.412314656083691
+        }
+      },
+      "delta_h3": {
+        "qg_total": {
+          "count": 512,
+          "max": 2.4786760533218404,
+          "mean": 0.7022221287399651,
+          "min": 0.07944451718127744
+        },
+        "sn_minus_qg": {
+          "count": 512,
+          "max": -0.49579840049890284,
+          "mean": -5.560488661869832,
+          "min": -10.093896618950328
+        },
+        "sn_term_SN": {
+          "count": 512,
+          "max": -0.49579840049890284,
+          "mean": -5.560488661869832,
+          "min": -10.093896618950327
+        },
+        "sn_total": {
+          "count": 512,
+          "max": -0.4163538833176254,
+          "mean": -4.858266533129867,
+          "min": -8.080232452446527
+        }
+      }
+    },
+    "T_0.001_K": {
+      "delta_h1": {
+        "qg_total": {
+          "count": 512,
+          "max": 47.007305656003304,
+          "mean": 4.581671239757088,
+          "min": 0.0014930216760254689
+        },
+        "sn_minus_qg": {
+          "count": 512,
+          "max": 2.306224839201107,
+          "mean": -0.008143144160028227,
+          "min": -0.6588181960682853
+        },
+        "sn_term_SN": {
+          "count": 512,
+          "max": 2.306224839201108,
+          "mean": -0.008143144160028213,
+          "min": -0.6588181960682851
+        },
+        "sn_total": {
+          "count": 512,
+          "max": 49.31353049520441,
+          "mean": 4.57352809559706,
+          "min": 0.0010823289364936194
+        }
+      },
+      "delta_h2": {
+        "qg_total": {
+          "count": 512,
+          "max": -0.018256959591146413,
+          "mean": -2.6414039234824815,
+          "min": -18.09794267229016
+        },
+        "sn_minus_qg": {
+          "count": 512,
+          "max": 2.466844140919324,
+          "mean": 0.8061595042148079,
+          "min": 0.019059684983790154
+        },
+        "sn_term_SN": {
+          "count": 512,
+          "max": 2.466844140919326,
+          "mean": 0.8061595042148079,
+          "min": 0.019059684983790154
+        },
+        "sn_total": {
+          "count": 512,
+          "max": 0.0008027253926437411,
+          "mean": -1.835244419267674,
+          "min": -16.386346710279444
+        }
+      },
+      "delta_h3": {
+        "qg_total": {
+          "count": 512,
+          "max": 14.066420195874365,
+          "mean": 3.9615526371614767,
+          "min": 0.44675358350908556
+        },
+        "sn_minus_qg": {
+          "count": 512,
+          "max": -0.2086210727003083,
+          "mean": -4.141962658694828,
+          "min": -11.164008412741877
+        },
+        "sn_term_SN": {
+          "count": 512,
+          "max": -0.2086210727003083,
+          "mean": -4.141962658694828,
+          "min": -11.164008412741877
+        },
+        "sn_total": {
+          "count": 512,
+          "max": 2.9726278621673514,
+          "mean": -0.18041002153335156,
+          "min": -1.9353967868544033
+        }
+      }
+    }
+  }
+}
